@@ -13,7 +13,7 @@ export const ProductosProvider = ({ children }) => {
   //            nombre (string), precio (number), imagen (string),
   //            descripcion (string), tipo (string)
   // 👉 PASO 3: Pegá acá la URL que te da mockapi (termina en /Productos)
-  const API = "https://mockapi.io/clone/690bf8e96ad3beba00f6bbf2/Productos";
+  const API = "https://690bf8e96ad3beba00f6bbf1.mockapi.io/Productos";
 
   const cargarProductos = async () => {
     try {
